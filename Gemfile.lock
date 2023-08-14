@@ -129,6 +129,7 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-x64-mingw-ucrt)
       racc (~> 1.4)
+    pg (1.5.3-x64-mingw-ucrt)
     public_suffix (5.0.3)
     puma (5.6.6)
       nio4r (~> 2.0)
@@ -191,7 +192,6 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.3-x64-mingw-ucrt)
     stimulus-rails (1.2.2)
       railties (>= 6.0.0)
     thor (1.2.2)
@@ -236,12 +236,12 @@ DEPENDENCIES
   foreman
   jbuilder
   jsbundling-rails
+  pg (~> 1.5, >= 1.5.3)
   puma (~> 5.0)
   rails (~> 7.0.7)
   react_on_rails
   selenium-webdriver
   sprockets-rails
-  sqlite3 (~> 1.4)
   stimulus-rails
   turbo-rails
   tzinfo-data
