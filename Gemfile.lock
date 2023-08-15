@@ -236,7 +236,7 @@ DEPENDENCIES
   foreman
   jbuilder
   jsbundling-rails
-  pg (~> 1.5, >= 1.5.3)
+  pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.7)
   react_on_rails
